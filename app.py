@@ -9,6 +9,8 @@ import logging
 import json
 from datetime import datetime
 from openai import OpenAI
+import streamlit as st
+
 
 # Setup logging and environment
 logging.basicConfig(level=logging.INFO)
